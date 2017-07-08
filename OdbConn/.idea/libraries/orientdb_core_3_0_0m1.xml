@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="orientdb-core-3.0.0m1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/aplication/ExtLib/orientdb-core-3.0.0m1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
