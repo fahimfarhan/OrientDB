@@ -18,7 +18,7 @@ public class Gson6 {
         BufferedReader br=null;
         JsonReader jr=null;
         try{
-            fr = new FileReader("F:\\Codes\\Java\\OrientDB\\src\\com\\folder\\00.json");
+            fr = new FileReader("F:\\Codes\\Java\\OrientDB\\folder\\00.json");
             br = new BufferedReader(fr);
             jr = new JsonReader(br);
             jr.setLenient(true);
