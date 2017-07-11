@@ -28,17 +28,14 @@ public class TwitterDB {
 
 
             //String creds ="remote:localhost/GratefulDeadConcerts";
-            String creds = "plocal:E:\\OrientDB2.2.22\\orientdb-community-2.2.22\\databases\\TwitterDB";
+            String creds = "plocal:E:\\OrientDB2.2.22\\orientdb-community-2.2.22\\databases\\MyTwitterDB";
             db = new ODatabaseDocumentTx(creds);
             db.open("admin","admin");
-            if(db==null){
-                System.out.println("db failed to open! "); System.exit(1);
-            }
 
             //tweet = new ODocument("Twitter");
             //am.SetODocument(new ODocument("Twitter"));
 
-            fr = new FileReader("F:\\Codes\\Java\\OrientDB\\OdbConn\\src\\com\\temp\\temp.json");
+            fr = new FileReader("F:\\Codes\\Java\\OdbConn\\src\\com\\temp\\temp.json");
             br = new BufferedReader(fr);
             jr = new JsonReader(br);
             jr.setLenient(true);

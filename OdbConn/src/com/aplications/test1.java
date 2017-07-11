@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class test1 {
     public static void main(String []Args) throws IOException {
-        AuxiliaryMethods aux = new AuxiliaryMethods();
+        new Notification();/*AuxiliaryMethods aux = new AuxiliaryMethods();
         String s1=null; String s2=null;
         String s3 = "E:\\Dataset\\archiveteam-twitter-stream-2016-10\\10\\01\\00";
         s1 = "E:\\Dataset\\archiveteam-twitter-stream-2016-10\\10\\01\\00\\32.json.bz2";
@@ -23,7 +23,7 @@ public class test1 {
             //aux.Bzip2UnZip(dir[i].getAbsolutePath().toString(),s2);
             //aux.LogWritter("Done: "+dir[i].getAbsolutePath()+"\n");
             //aux.DeleteFile(s2);
-        }
+        }*/
 
     }
 }
